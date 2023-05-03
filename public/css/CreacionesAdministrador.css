@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containerForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.form{
+    margin-top: 30px;
+    background-color: #00000060;
+    border-radius: 16px;
+    width: 87%;
+    padding: 40px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+h4{
+    width: 100%;
+    text-align: center;
+}
+
+input{
+    margin-top: 7px;
+    margin-bottom: 25px;
+}
+
+table{
+    width: 87% !important;
+    padding: 40px !important;
+    border-radius: 16px !important;
+}
+
+td{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}

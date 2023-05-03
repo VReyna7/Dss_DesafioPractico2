@@ -1,0 +1,11 @@
+body{
+    width: 100%;
+    background-image: url("../img/backgroundAll.png");
+    height: 100vh;
+    object-fit: fill;
+    position: relative;
+    background-size: cover;
+    top: 0;
+    bottom: 50;
+    background-position: center;
+}

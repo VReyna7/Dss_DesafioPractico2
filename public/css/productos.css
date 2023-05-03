@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+main>div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 250px;
+    width: 80%;
+}
+
+.productos{
+    display: flex;
+    width: 100%;
+    min-width: 250px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-width: 220px;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.producto>img{
+    width: 220px;
+}
